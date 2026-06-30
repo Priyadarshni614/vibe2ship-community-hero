@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in | Community Hero</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="signin-page">
+  <main class="signin-shell">
+    <section class="signin-visual">
+      <a href="index.html" class="signin-brand">🛡️ Community Hero</a>
+      <p class="eyebrow">Citizen access</p>
+      <h1>Choose your language and start helping your community.</h1>
+      <p>
+        Sign in for this hackathon demo, select your preferred language, and use Gemini-powered reporting,
+        verification, insights, awareness messages, and feedback enhancement.
+      </p>
+      <div class="signin-points">
+        <span>🌍 Universal language support</span>
+        <span>🤖 Gemini AI assistance</span>
+        <span>📍 Location-required reporting</span>
+      </div>
+    </section>
+
+    <section class="signin-card-page">
+      <a href="index.html" class="back-link">← Back to home</a>
+      <p class="eyebrow" id="accessEyebrow">Profile setup</p>
+      <h2 id="formTitle">Sign in to continue</h2>
+      <p class="signin-help" id="formHelp">
+        Your language choice will translate the app UI and ask Gemini to return citizen-facing AI content in your selected language.
+      </p>
+
+      <form id="signInForm" class="signin-form-page">
+        <label><span id="nameText">Name</span>
+          <input id="signInName" type="text" placeholder="Example: Priya" required />
+        </label>
+
+        <label><span id="emailText">Email</span>
+          <input id="signInEmail" type="email" placeholder="Example: priya@example.com" required />
+        </label>
+
+        <label><span id="languageText">Preferred language</span>
+          <select id="signInLanguage" required></select>
+        </label>
+
+        <label id="customLanguageWrap" class="hidden"><span id="customLanguageText">Custom language</span>
+          <input id="customLanguageInput" type="text" placeholder="Example: Kannada, Arabic, French, Sinhala" />
+        </label>
+
+        <div class="language-preview" id="languagePreview">
+          English selected. The main app will open in this language.
+        </div>
+
+        <div class="button-row signin-buttons">
+          <button type="submit" class="primary-btn" id="submitText">Sign in</button>
+          <a href="index.html" class="secondary-btn cancel-link" id="cancelText">Cancel</a>
+        </div>
+        <small id="authMessage"></small>
+      </form>
+    </section>
+  </main>
+
+  <script src="signin.js"></script>
+</body>
+</html>
