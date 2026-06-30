@@ -84,8 +84,8 @@ The AI does not auto-fill or guess the location. Language translation is used fo
 
 ## Final Submission Items
 
-- Deployed Application Link: Firebase Hosting / Google Cloud URL
-- GitHub Repository Link: Source code repository
+- Deployed Application Link: https://ibe2ship.web.app
+- GitHub Repository Link: https://github.com/Priyadarshni614/vibe2ship-community-hero.git
 - Google Doc Link: This project description document with public view access
 
 
